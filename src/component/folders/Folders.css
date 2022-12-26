@@ -1,0 +1,40 @@
+.folders-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 94%;
+    align-items:center ;
+}
+
+
+.folders{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 241, 164);
+    height: 25px;
+    width: 135px;
+    padding: 2%;
+    margin: 4px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 3px 2px rgb(212, 207, 207);
+}
+.folders-area :hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+}
+
+.folders :hover{
+    box-shadow :none;
+    cursor: auto;
+}
+
+
+.folderImg{
+    margin-left: 5%;
+}
+
+.folders input{
+    width: 100px;
+}
+   

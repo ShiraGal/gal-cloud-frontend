@@ -1,0 +1,49 @@
+.file-oneFile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    width: 110px;
+    border-color: cadetblue;
+    padding: 2%;
+    margin: 6px;
+}
+
+.file-text{
+    width: 90%;
+        height: 23px;
+    overflow: hidden !important;
+}
+
+.file-options{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0%;
+    height: 30px;
+}
+
+.file-options img{
+    height: 25px;
+    width: 25px;
+    border-radius: 13%;
+}
+
+
+.file-dounload img:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+}
+.file-delete img:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+}
+.file-details{
+    cursor: help; 
+}
+
+
+
+
+
+
